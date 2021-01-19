@@ -29,7 +29,7 @@ const formatNumber = num => {
 
     return (
         <div>
-            <h4>Order Summary</h4>
+            <h4 className="text-primary">Order Summary</h4>
             <p>Items Added: {cart.length}  </p>
             <p>Prodcut Price: {formatNumber(total)}</p>
             <p><small>Shipping cost: {formatNumber(shipping)}</small></p>
